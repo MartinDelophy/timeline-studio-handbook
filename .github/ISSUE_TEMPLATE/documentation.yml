@@ -1,0 +1,22 @@
+name: 文档修正
+description: 报告错误、过时步骤或不清楚的说明
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请指出具体页面、段落或链接。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Timeline Studio 版本
+      placeholder: 与产品行为有关时请填写
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议修改
+      description: 如果可以，请提供正确步骤或参考来源。

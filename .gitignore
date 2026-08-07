@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.idea/
+.vscode/
+
+# Keep large local source media out of the handbook repository.
+*.mov
+*.mp4
+*.mkv
+*.wav
+*.aiff
+*.psd
+*.prproj
+exports/
+raw/

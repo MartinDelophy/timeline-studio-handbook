@@ -1,0 +1,50 @@
+name: 提交效果案例
+description: 分享一个使用 Timeline Studio 完成的真实案例
+title: "[Showcase]: "
+labels: ["showcase"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢分享。提交前请确认素材可以公开，并尽量提供可复现信息。
+  - type: input
+    id: version
+    attributes:
+      label: Timeline Studio 版本
+      placeholder: v0.x.x 或 commit SHA
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 操作系统与环境
+      placeholder: macOS 15 / Windows 11 / Linux
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 项目目标
+      description: 说明受众、平台、比例、时长和核心信息。
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 关键过程
+      description: 说明 AI 辅助步骤、人工调整和导出设置。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 效果与复盘
+      description: 提供预览链接，并说明做得好的地方和局限。
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: 内容授权
+      options:
+        - label: 我有权公开上述内容及相关素材，且内容不包含密钥或隐私信息。
+          required: true
