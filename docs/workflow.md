@@ -79,7 +79,7 @@ Work in this order to reduce rework:
 
 ## 7. Review and record
 
-Record total time, steps saved by AI, the biggest source of rework, audience feedback or metrics, and what to keep or change next time. Use the [showcase template](../showcases/_template/README.md) to archive the process with the result.
+Record total time, steps saved by AI, the biggest source of rework, audience feedback or metrics, and what to keep or change next time. Use the [case template](../cases/_template/README.md) to archive the session, prompts, process, and result.
 
 ## Working principles
 

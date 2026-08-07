@@ -1,95 +1,104 @@
-# Timeline Studio Handbook
+# Awesome Timeline Studio Skills
 
-> 我使用 Timeline Studio 进行 AI 辅助视频创作、自动剪辑与交付复盘的个人实践手册。
+> 使用 Timeline Studio Skills 产出的真实案例、可复用提示词与可验证结果。
 
 [English](README.md) · 简体中文
 
-[工作流](docs/workflow.zh-CN.md) · [效果展示](showcases/README.zh-CN.md) · [参与贡献](CONTRIBUTING.zh-CN.md)
+[案例画廊](cases/README.zh-CN.md) · [Skill 工作流](docs/workflow.zh-CN.md) · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-## 这是什么
+![案例数](https://img.shields.io/badge/cases-1-ff6b35) ![Skills](https://img.shields.io/badge/skills-1-7c3aed) ![语言](https://img.shields.io/badge/language-English%20%7C%20中文-0ea5e9)
 
-这个仓库记录的不是一份功能清单，而是一套可以复用、验证和持续改进的 Timeline Studio 使用方式：如何从素材和目标出发，组织时间线、使用 AI 辅助能力、控制质量，并把最终效果连同过程一起沉淀下来。
+## 精选案例
 
-仓库当前处于起步阶段。首要目标是建立清晰的记录格式，之后逐步补充真实项目、提示词、时间线拆解和导出结果。
+[![琪亚娜多装甲参考视频复刻](cases/001-kiana-multi-battlesuit-remake/assets/preview.webp)](cases/001-kiana-multi-battlesuit-remake/README.zh-CN.md)
 
-> [!NOTE]
-> 这是非官方的个人实践仓库，与 Timeline Studio 项目维护团队没有隶属关系。产品能力与界面可能随版本变化，请以[官方仓库](https://github.com/chatman-media/timeline-studio)为准。
+### Case 001 — 琪亚娜多装甲参考视频复刻
 
-## 为什么做这个仓库
+`edit-timeline-studio` skill 对一条 26.47 秒参考视频进行逆向分析，检索来源可追溯的高清素材，重建“竖屏容器中横画面侧躺”的视觉语法，混剪琪亚娜多套装甲，并根据用户反馈持续修正人物身份与重复镜头。
 
-- 记录一套从需求到成片的稳定流程，而不只是零散技巧。
-- 用真实效果展示方法是否有效，并保留关键参数与取舍。
-- 沉淀失败案例和排错经验，减少重复试错。
-- 让其他使用者可以复现、讨论并贡献自己的工作流。
+| Skill | 核心能力 | 结果 | 提示词包 |
+| --- | --- | --- | --- |
+| `edit-timeline-studio` | 参考片分析、合规素材检索、镜头功能映射、节拍级组装、迭代式视觉 QA、技术验收 | [查看案例](cases/001-kiana-multi-battlesuit-remake/README.zh-CN.md) · [观看 MP4](cases/001-kiana-multi-battlesuit-remake/assets/result.mp4) · [下载 `.timeline`](cases/001-kiana-multi-battlesuit-remake/assets/kiana-multi-battlesuit-remake.timeline) | [原始需求](cases/001-kiana-multi-battlesuit-remake/prompts/00-original-brief.md) · [Skill 制作提示词](cases/001-kiana-multi-battlesuit-remake/prompts/01-production-brief.md) |
 
-## 我的基本方法
+## 项目理念
+
+这个仓库把 Agent Skill 看作一套生产系统，而不只是一份简短指令。每个案例连接四个部分：
 
 ```text
-明确目标 → 整理素材 → 设计节奏 → AI 辅助粗剪 → 人工精修 → 质量检查 → 导出与复盘
+用户意图 → Skill 工作流 → Skill 生成的制作提示词 → 可验证输出
 ```
 
-我会优先关注四件事：
+目标是让 Skill 能力既能被看见，也能被复用：
 
-1. **目标先行**：先确定平台、受众、时长和观看场景，再决定比例与节奏。
-2. **AI 做高杠杆工作**：让 AI 参与素材理解、粗剪、转录和版本适配；叙事判断与最终审美由人完成。
-3. **过程可复现**：案例尽量记录工具版本、输入素材、关键操作、提示词和导出设置。
-4. **结果可比较**：展示成片的同时，也说明修改前后、耗时、有效之处和局限。
+- **结果优先**：每个案例先展示作品，再描述能力。
+- **提示词即生产代码**：同时保存用户原始需求，以及使用 Skill 后整理出的结构化制作 brief。
+- **证据代替形容词**：记录帧数、时长、尺寸、音频校验、来源和已知限制。
+- **迭代也是案例的一部分**：用户的修正意见和对应版本变化不会被隐藏。
+- **结构可扩展**：以后可以持续加入新的 session，而不必重做仓库结构。
 
-完整步骤见[我的 Timeline Studio 工作流](docs/workflow.zh-CN.md)。
+## Skill 能力索引
 
-## 效果展示
+| Skill | 案例数 | 已展示能力 | 案例 |
+| --- | ---: | --- | --- |
+| `edit-timeline-studio` | 1 | 帧级参考复刻、网络素材研究、多源剪辑、反馈驱动修订、交付 QA | [Case 001](cases/001-kiana-multi-battlesuit-remake/README.zh-CN.md) |
 
-效果展示是本仓库的重点。每个案例都会尽量包含：
+后续完成的其他 Skill 和多 Skill 组合工作流都会继续加入这里。
 
-- 成片或可直接预览的 GIF/截图；
-- 项目目标、平台与目标时长；
-- 素材类型和时间线结构；
-- 使用到的 AI 能力、提示词与人工调整；
-- 导出参数、制作耗时和复盘结论。
+## 案例组成
 
-当前案例正在整理中。你可以从[展示索引](showcases/README.zh-CN.md)查看进度，也可以复制[案例模板](showcases/_template/README.zh-CN.md)提交自己的作品。
+每个案例应当包含：
 
-| 案例 | 类型 | 目标 | 状态 |
-| --- | --- | --- | --- |
-| 首个完整工作流案例 | 待定 | 展示从素材到成片的完整过程 | 准备中 |
+1. **结果**：可直接查看的预览，以及完整或适合仓库存储的成片。
+2. **Session 上下文**：session ID、原始请求、素材约束和关键用户修正。
+3. **使用的 Skills**：Skill 名称与实际展现的生产能力。
+4. **提示词包**：用户原始 brief，以及通过 Skill 工作流整理出的可复用制作提示词。
+5. **过程**：重要决策、迭代和被放弃的方案。
+6. **验证**：媒体参数、技术检查和验收证据。
+7. **来源与限制**：素材链接、权利说明、缺失产物和真实边界。
+
+浏览[完整案例画廊](cases/README.zh-CN.md)，或使用[案例模板](cases/_template/README.zh-CN.md)。
+
+## 如何使用
+
+1. 找到效果与你目标接近的案例。
+2. 阅读能力表和制作决策。
+3. 复制案例中的 Skill 制作提示词，并替换变量。
+4. 使用你有权处理的素材调用相应 Skill。
+5. 根据案例中的验收标准检查结果。
 
 ## 仓库结构
 
 ```text
 timeline-studio-handbook/
-├── README.md                 # 项目入口
-├── docs/
-│   └── workflow.md           # 我的完整工作流
-├── showcases/
-│   ├── README.md             # 案例索引与收录标准
-│   └── _template/README.md   # 新案例模板
-├── CONTRIBUTING.md           # 贡献指南
-├── CODE_OF_CONDUCT.md        # 社区行为准则
-└── .github/                  # Issue 与 Pull Request 模板
+├── README.md                         # 英文优先的画廊首页
+├── README.zh-CN.md                   # 完整简体中文镜像
+├── cases/
+│   ├── README.md                     # 案例索引
+│   ├── _template/                    # 后续 session 的统一模板
+│   └── 001-kiana-multi-battlesuit-remake/
+│       ├── README.md                 # 案例说明
+│       ├── prompts/                  # 原始与 Skill 生成提示词
+│       └── assets/                   # 预览、接触表与成片
+├── docs/                             # 通用工作流
+└── CONTRIBUTING.md                   # 贡献规则
 ```
-
-## 开始阅读或参与
-
-- 想了解方法：从[工作流](docs/workflow.zh-CN.md)开始。
-- 想看效果：前往[效果展示](showcases/README.zh-CN.md)。
-- 想分享经验：阅读[贡献指南](CONTRIBUTING.zh-CN.md)，然后提交 Issue 或 Pull Request。
-- 发现描述与当前版本不符：请提交“文档修正”Issue，并附上 Timeline Studio 版本和操作系统。
 
 ## 路线图
 
-- [x] 建立仓库结构与贡献规范
-- [x] 发布可复用的工作流和案例模板
-- [ ] 加入第一个完整的效果展示
-- [ ] 增加常用提示词与参数记录
-- [ ] 增加常见问题和故障排查
-- [ ] 根据真实案例整理不同平台的导出策略
+- [x] 将手册升级为结果优先的 Skill 案例库
+- [x] 加入第一个真实 Codex session 和提示词包
+- [x] 加入适合 GitHub 展示的图片与视频预览
+- [ ] 增加更多 `edit-timeline-studio` 工作流
+- [ ] 增加多 Skill 组合生产案例
+- [ ] 按 Skill、媒体类型和能力提供筛选
+- [ ] 案例数量足够后增加可视化画廊网站
 
-## 致谢与参考
+## 说明与免责声明
 
-- [Timeline Studio](https://github.com/chatman-media/timeline-studio)：本手册所使用的开源视频编辑项目。
-- [GitHub Community Standards](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions)：仓库协作文件与贡献流程参考。
-- [Standard Readme](https://github.com/RichardLitt/standard-readme)：README 信息结构参考。
+这是非官方个人实践仓库，与 Timeline Studio 维护团队、HoYoverse 或米哈游没有隶属关系。产品行为可能随版本变化，请以 [Timeline Studio 官方仓库](https://github.com/chatman-media/timeline-studio)为准。
+
+案例媒体可能包含第三方素材，仅用于非商业的 Skill 能力展示和方法研究，并保留来源说明；相关权利归各自权利人所有。不要默认案例媒体可以用于商业用途。
 
 ## 许可
 
-除另有说明外，本仓库的文字、图片和案例说明采用 [CC BY 4.0](LICENSE) 许可。案例中引用的第三方素材仍归原权利人所有，请在提交内容时注明来源和授权情况。
+除另有说明外，原创文档和提示词结构采用 [CC BY 4.0](LICENSE) 许可。第三方媒体和引用素材不包含在该许可中。
