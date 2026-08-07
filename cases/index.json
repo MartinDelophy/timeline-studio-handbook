@@ -89,6 +89,25 @@
         "result": "005-cosmic-scale-science/assets/result.mp4",
         "timeline": "005-cosmic-scale-science/assets/cosmic-scale.timeline"
       }
+    },
+    {
+      "id": "006",
+      "slug": "cat-highlight-replication",
+      "displayMode": "comparison",
+      "sessionId": "019fdb28-7f30-7d73-b412-d55583dd1bfe",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Cat Highlight Replication", "zhCN": "小猫高光复刻"},
+      "prompt": {
+        "en": "Use this reference to turn the cat footage into a matching highlight edit: keep the original BGM, remove the final two-second Douyin voice, and recreate its repetition and dramatic tension.",
+        "zhCN": "参考这个视频，把这些小猫素材剪成同类高光效果：保留原生 BGM，去掉最后 2 秒抖音语音，并复刻其中的重复与张力感。"
+      },
+      "assets": {
+        "original": "006-cat-highlight-replication/assets/reference.mp4",
+        "comparison": "006-cat-highlight-replication/assets/comparison.webp",
+        "preview": "006-cat-highlight-replication/assets/preview.webp",
+        "result": "006-cat-highlight-replication/assets/result.mp4",
+        "timeline": "006-cat-highlight-replication/assets/cat-highlight-replication.timeline"
+      }
     }
   ]
 }

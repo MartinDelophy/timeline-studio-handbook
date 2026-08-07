@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-5-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-6-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -57,6 +57,14 @@
 > 使用网络素材制作一条效果惊艳、简单易懂的宇宙知识科普视频。
 
 [结果视频](cases/005-cosmic-scale-science/assets/result.mp4) · [可编辑 `.timeline`](cases/005-cosmic-scale-science/assets/cosmic-scale.timeline) · [查看案例](cases/005-cosmic-scale-science/README.zh-CN.md)
+
+## Case 006 · 原视频 → 小猫高光结果
+
+[![参考视频与小猫高光结果左右对比](cases/006-cat-highlight-replication/assets/comparison.webp)](cases/006-cat-highlight-replication/README.zh-CN.md)
+
+> 参考这个视频，把这些小猫素材剪成同类高光效果：保留原生 BGM，去掉最后 2 秒抖音语音，并复刻其中的重复与张力感。
+
+[原视频](cases/006-cat-highlight-replication/assets/reference.mp4) → [结果视频](cases/006-cat-highlight-replication/assets/result.mp4) · [可编辑 `.timeline`](cases/006-cat-highlight-replication/assets/cat-highlight-replication.timeline) · [查看案例](cases/006-cat-highlight-replication/README.zh-CN.md)
 
 ## 两种展示类型
 
