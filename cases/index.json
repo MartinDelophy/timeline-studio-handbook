@@ -35,6 +35,26 @@
         "result": "002-claude-fable-5-promo/assets/result.mp4",
         "timeline": "002-claude-fable-5-promo/assets/claude-fable-5-promo.timeline"
       }
+    },
+    {
+      "id": "003",
+      "slug": "claude-fable-5-english-localization",
+      "displayMode": "comparison",
+      "sessionId": "019fdac2-76d4-7452-b116-cec82182d8e5",
+      "sourceCaseId": "002",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Claude Fable 5 English Localization", "zhCN": "Claude Fable 5 英文本地化"},
+      "prompt": {
+        "en": "Convert the Claude Fable 5 promo entirely to English, using an English-only voiceover.",
+        "zhCN": "把 Claude Fable 5 宣传片完整转换成英文，并使用纯英文配音。"
+      },
+      "assets": {
+        "original": "002-claude-fable-5-promo/assets/result.mp4",
+        "comparison": "003-claude-fable-5-english-localization/assets/comparison.webp",
+        "preview": "003-claude-fable-5-english-localization/assets/preview.webp",
+        "result": "003-claude-fable-5-english-localization/assets/result.mp4",
+        "timeline": "003-claude-fable-5-english-localization/assets/claude-fable-5-english.timeline"
+      }
     }
   ]
 }

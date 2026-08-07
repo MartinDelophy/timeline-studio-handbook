@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-2-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-3-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 🎬 **制作你自己的视频：** [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor)
 
@@ -25,6 +25,14 @@
 > 帮我做一期 Claude Fable 5 的宣传视频，使用 `edit-timeline-studio` 来做。
 
 [结果视频](cases/002-claude-fable-5-promo/assets/result.mp4) · [可编辑 `.timeline`](cases/002-claude-fable-5-promo/assets/claude-fable-5-promo.timeline) · [查看案例](cases/002-claude-fable-5-promo/README.zh-CN.md)
+
+## Case 003 · 中文 → 英文
+
+[![中文原版与英文结果左右对比](cases/003-claude-fable-5-english-localization/assets/comparison.webp)](cases/003-claude-fable-5-english-localization/README.zh-CN.md)
+
+> 把 Claude Fable 5 宣传片完整转换成英文，并使用纯英文配音。
+
+[中文原版](cases/002-claude-fable-5-promo/assets/result.mp4) → [英文结果](cases/003-claude-fable-5-english-localization/assets/result.mp4) · [可编辑 `.timeline`](cases/003-claude-fable-5-english-localization/assets/claude-fable-5-english.timeline) · [查看案例](cases/003-claude-fable-5-english-localization/README.zh-CN.md)
 
 ## 两种展示类型
 
