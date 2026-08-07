@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-2-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-3-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 🎬 **Create your own:** [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor)
 
@@ -25,6 +25,14 @@ This gallery uses the shortest possible format to show what the `edit-timeline-s
 > Create a promotional video for Claude Fable 5 using `edit-timeline-studio`.
 
 [Result video](cases/002-claude-fable-5-promo/assets/result.mp4) · [Editable `.timeline`](cases/002-claude-fable-5-promo/assets/claude-fable-5-promo.timeline) · [Open case](cases/002-claude-fable-5-promo/README.md)
+
+## Case 003 · Chinese → English
+
+[![Chinese original and English result shown side by side](cases/003-claude-fable-5-english-localization/assets/comparison.webp)](cases/003-claude-fable-5-english-localization/README.md)
+
+> Convert the Claude Fable 5 promo entirely to English, using an English-only voiceover.
+
+[Chinese original](cases/002-claude-fable-5-promo/assets/result.mp4) → [English result](cases/003-claude-fable-5-english-localization/assets/result.mp4) · [Editable `.timeline`](cases/003-claude-fable-5-english-localization/assets/claude-fable-5-english.timeline) · [Open case](cases/003-claude-fable-5-english-localization/README.md)
 
 ## The two formats
 
