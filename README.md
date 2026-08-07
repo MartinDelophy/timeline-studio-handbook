@@ -1,14 +1,22 @@
 # Timeline Studio Skill Cases
 
-> One prompt. One result. One editable `.timeline` project.
+> Reproducible AI video-editing workflows, result cases, and evaluation criteria.
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
 ![Cases](https://img.shields.io/badge/cases-5-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
-🎬 **Create your own:** [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor)
+> These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
+>
+> Want to run any case? [Install Timeline Studio](https://github.com/MartinDelophy/ai-video-editor) first.
 
-This gallery uses the shortest possible format to show what the `edit-timeline-studio` skill can do.
+One prompt. One result. One editable `.timeline` project.
+
+## What this repository proves
+
+- **Reproducible workflows:** each case preserves its one-line prompt, original video when available, result video, and editable project.
+- **Visible results:** compact previews make the outcome understandable before the implementation details.
+- **Verifiable evaluation:** compare prompt adherence and reference similarity, inspect audiovisual quality, and open the `.timeline` to examine the edit structure.
 
 ## Case 001 · Original → Result
 
