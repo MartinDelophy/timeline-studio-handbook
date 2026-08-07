@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-3-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-4-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 🎬 **制作你自己的视频：** [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor)
 
@@ -33,6 +33,14 @@
 > 把 Claude Fable 5 宣传片完整转换成英文，并使用纯英文配音。
 
 [中文原版](cases/002-claude-fable-5-promo/assets/result.mp4) → [英文结果](cases/003-claude-fable-5-english-localization/assets/result.mp4) · [可编辑 `.timeline`](cases/003-claude-fable-5-english-localization/assets/claude-fable-5-english.timeline) · [查看案例](cases/003-claude-fable-5-english-localization/README.zh-CN.md)
+
+## Case 004 · 提示词 → 叙事推广片
+
+[![产品、教程与个人故事三个证明案例](cases/004-everyone-can-create-narrative/assets/preview.webp)](cases/004-everyone-can-create-narrative/README.zh-CN.md)
+
+> 围绕“内容创作从未如此简单，手动剪辑正在成为旧方式”制作一条推广视频。
+
+[结果视频](cases/004-everyone-can-create-narrative/assets/result.mp4) · [可编辑 `.timeline`](cases/004-everyone-can-create-narrative/assets/everyone-can-create.timeline) · [查看案例](cases/004-everyone-can-create-narrative/README.zh-CN.md)
 
 ## 两种展示类型
 

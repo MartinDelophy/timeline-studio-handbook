@@ -55,6 +55,23 @@
         "result": "003-claude-fable-5-english-localization/assets/result.mp4",
         "timeline": "003-claude-fable-5-english-localization/assets/claude-fable-5-english.timeline"
       }
+    },
+    {
+      "id": "004",
+      "slug": "everyone-can-create-narrative",
+      "displayMode": "standalone",
+      "sessionId": "019fdac6-7ec1-7c63-a66b-811c631ba24d",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Everyone Can Create", "zhCN": "人人都能创作"},
+      "prompt": {
+        "en": "Create a promotional video around the idea that content creation is easier than ever and manual editing is becoming the old way.",
+        "zhCN": "围绕内容创作从未如此简单、手动剪辑正在成为旧方式的理念制作一条推广视频。"
+      },
+      "assets": {
+        "preview": "004-everyone-can-create-narrative/assets/preview.webp",
+        "result": "004-everyone-can-create-narrative/assets/result.mp4",
+        "timeline": "004-everyone-can-create-narrative/assets/everyone-can-create.timeline"
+      }
     }
   ]
 }

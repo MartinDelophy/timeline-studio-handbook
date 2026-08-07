@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-3-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-4-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 🎬 **Create your own:** [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor)
 
@@ -33,6 +33,14 @@ This gallery uses the shortest possible format to show what the `edit-timeline-s
 > Convert the Claude Fable 5 promo entirely to English, using an English-only voiceover.
 
 [Chinese original](cases/002-claude-fable-5-promo/assets/result.mp4) → [English result](cases/003-claude-fable-5-english-localization/assets/result.mp4) · [Editable `.timeline`](cases/003-claude-fable-5-english-localization/assets/claude-fable-5-english.timeline) · [Open case](cases/003-claude-fable-5-english-localization/README.md)
+
+## Case 004 · Prompt → Narrative Promo
+
+[![Product, tutorial, and personal-story proof cases](cases/004-everyone-can-create-narrative/assets/preview.webp)](cases/004-everyone-can-create-narrative/README.md)
+
+> Create a promotional video around this idea: creating content is easier than ever, and manual editing is becoming the old way.
+
+[Result video](cases/004-everyone-can-create-narrative/assets/result.mp4) · [Editable `.timeline`](cases/004-everyone-can-create-narrative/assets/everyone-can-create.timeline) · [Open case](cases/004-everyone-can-create-narrative/README.md)
 
 ## The two formats
 
