@@ -1,14 +1,22 @@
 # Timeline Studio Skill 案例
 
-> 一句话提示词，一个结果，一个可编辑的 `.timeline` 工程。
+> 可复现的 AI 视频剪辑工作流、效果案例与评测标准。
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
 ![案例数](https://img.shields.io/badge/cases-5-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
-🎬 **制作你自己的视频：** [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor)
+> 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
+>
+> 想运行任何案例？请先[安装 Timeline Studio](https://github.com/MartinDelophy/ai-video-editor)。
 
-这个案例库用最短的展示路径，直接证明 `edit-timeline-studio` skill 能做什么。
+一句话提示词，一个结果，一个可编辑的 `.timeline` 工程。
+
+## 这个仓库证明什么
+
+- **工作流可复现：** 每个案例都保留一句话提示词、原视频（如有）、结果视频与可编辑工程。
+- **效果可直接查看：** 紧凑的预览让路人在阅读实现细节前就能看懂结果。
+- **评测可验证：** 可以比较提示词完成度与参考视频相似度、检查视听质量，并打开 `.timeline` 查看剪辑结构。
 
 ## Case 001 · 原视频 → 结果
 
