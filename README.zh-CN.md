@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-4-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-5-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 🎬 **制作你自己的视频：** [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor)
 
@@ -41,6 +41,14 @@
 > 围绕“内容创作从未如此简单，手动剪辑正在成为旧方式”制作一条推广视频。
 
 [结果视频](cases/004-everyone-can-create-narrative/assets/result.mp4) · [可编辑 `.timeline`](cases/004-everyone-can-create-narrative/assets/everyone-can-create.timeline) · [查看案例](cases/004-everyone-can-create-narrative/README.zh-CN.md)
+
+## Case 005 · 提示词 → 宇宙科普片
+
+[![宇宙尺度知识科普视频](cases/005-cosmic-scale-science/assets/preview.webp)](cases/005-cosmic-scale-science/README.zh-CN.md)
+
+> 使用网络素材制作一条效果惊艳、简单易懂的宇宙知识科普视频。
+
+[结果视频](cases/005-cosmic-scale-science/assets/result.mp4) · [可编辑 `.timeline`](cases/005-cosmic-scale-science/assets/cosmic-scale.timeline) · [查看案例](cases/005-cosmic-scale-science/README.zh-CN.md)
 
 ## 两种展示类型
 

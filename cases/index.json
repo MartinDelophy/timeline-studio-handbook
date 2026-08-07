@@ -72,6 +72,23 @@
         "result": "004-everyone-can-create-narrative/assets/result.mp4",
         "timeline": "004-everyone-can-create-narrative/assets/everyone-can-create.timeline"
       }
+    },
+    {
+      "id": "005",
+      "slug": "cosmic-scale-science",
+      "displayMode": "standalone",
+      "sessionId": "019fdaaf-3e67-7873-8e08-676f84d36932",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Cosmic Scale", "zhCN": "宇宙尺度"},
+      "prompt": {
+        "en": "Create a stunning, easy-to-understand cosmic science video using web-sourced footage.",
+        "zhCN": "使用网络素材制作一条效果惊艳、简单易懂的宇宙知识科普视频。"
+      },
+      "assets": {
+        "preview": "005-cosmic-scale-science/assets/preview.webp",
+        "result": "005-cosmic-scale-science/assets/result.mp4",
+        "timeline": "005-cosmic-scale-science/assets/cosmic-scale.timeline"
+      }
     }
   ]
 }
