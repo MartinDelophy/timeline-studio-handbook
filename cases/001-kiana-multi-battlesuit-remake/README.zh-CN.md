@@ -1,6 +1,6 @@
 # Case 001 · 琪亚娜参考视频复刻
 
-`对比型` · `edit-timeline-studio` · [English](README.md)
+`对比型` · `edit-timeline-studio` · 使用 [Timeline Studio](https://github.com/MartinDelophy/ai-video-editor) 制作 · [English](README.md)
 
 ## 1. 原视频
 

@@ -1,6 +1,6 @@
 # Case 001 · Kiana Reference Remake
 
-`Comparison` · `edit-timeline-studio` · [简体中文](README.zh-CN.md)
+`Comparison` · `edit-timeline-studio` · Built with [Timeline Studio](https://github.com/MartinDelophy/ai-video-editor) · [简体中文](README.zh-CN.md)
 
 ## 1. Original
 

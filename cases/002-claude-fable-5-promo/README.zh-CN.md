@@ -1,6 +1,6 @@
 # Case 002 · Claude Fable 5 宣传片
 
-`生成型` · `edit-timeline-studio` · [English](README.md)
+`生成型` · `edit-timeline-studio` · 使用 [Timeline Studio](https://github.com/MartinDelophy/ai-video-editor) 制作 · [English](README.md)
 
 ## 1. 一句话提示词
 
