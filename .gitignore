@@ -8,6 +8,7 @@ Thumbs.db
 # Keep large local source media out of the handbook repository.
 *.mov
 *.mp4
+!cases/**/assets/result.mp4
 *.mkv
 *.wav
 *.aiff

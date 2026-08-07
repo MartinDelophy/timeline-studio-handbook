@@ -2,11 +2,12 @@
 
 [English](CONTRIBUTING.md) · 简体中文
 
-感谢你帮助完善 Timeline Studio Handbook。这里欢迎真实案例、工作流改进、提示词、排错经验和文档修正。
+感谢你帮助完善 Awesome Timeline Studio Skills。这里欢迎真实 session 案例、可复用的 Skill 制作提示词、工作流改进、排错经验和文档修正。
 
 ## 可以贡献什么
 
-- **效果案例**：包含目标、过程、参数、结果和复盘的真实项目。
+- **Skill 案例**：包含结果、提示词包、过程、验证和复盘的真实 session。
+- **提示词包**：用户原始 brief，以及清楚标注为 Skill 生成或整理的可复用提示词。
 - **工作流**：适用于某类内容或平台的可复现方法。
 - **经验修正**：对版本变化、错误说明或过时步骤的更新。
 - **资源完善**：在版权允许的前提下补充截图、示例或参考资料。
@@ -17,7 +18,7 @@
 2. 确认内容不包含 API 密钥、隐私数据或保密信息。
 3. 确认你有权公开提交的文字、图片、视频、音乐和字体。
 4. 对产品行为的描述注明 Timeline Studio 版本和操作系统。
-5. 案例请从 `showcases/_template` 复制模板，不要直接修改模板本身。
+5. 案例请从 `cases/_template` 复制模板，不要直接修改模板本身。
 
 ## 本地流程
 
@@ -39,11 +40,14 @@ git push -u origin docs/short-description
 
 ## 案例目录约定
 
-- 目录名使用小写 kebab-case，例如 `interview-to-shorts`。
-- 每个案例必须包含 `README.md`。
+- 目录名使用编号加小写 kebab-case，例如 `002-interview-to-shorts`。
+- 每个案例必须同时包含 `README.md` 和 `README.zh-CN.md`。
+- session 产生可复用提示词时，加入 `prompts/00-original-brief.md` 和 `prompts/01-production-brief.md`。
+- 可以保留用户明确输入，但不得公开隐藏推理、凭据、密钥、个人信息或私有本地路径。
+- 必须明确区分用户原始提示词和由 Skill 或维护者整理的衍生提示词。
 - 本地媒体放在案例自身的 `assets/` 下，不要引用个人电脑的绝对路径。
 - 优先提交 WebP/JPEG 图片和短 GIF；大视频使用外部链接。
-- 不接受只有宣传链接、没有过程记录的案例。
+- 不接受只有宣传链接、没有过程和验证证据的案例。
 
 ## 写作约定
 
@@ -59,6 +63,6 @@ git push -u origin docs/short-description
 - [ ] 产品行为注明了版本与环境。
 - [ ] 案例素材已获授权且标注来源。
 - [ ] 没有提交个人信息、密钥或大体积原始文件。
-- [ ] 已更新相关索引。
+- [ ] 已更新案例索引、Skill 能力索引和中英文版本。
 
 参与本仓库即表示你同意遵守[社区行为准则](CODE_OF_CONDUCT.zh-CN.md)，并同意以仓库许可证发布你的贡献。

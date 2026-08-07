@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "001",
+      "slug": "kiana-multi-battlesuit-remake",
+      "title": {
+        "en": "Kiana Multi-Battlesuit Reference Remake",
+        "zhCN": "琪亚娜多装甲参考视频复刻"
+      },
+      "sessionId": "019fda07-8303-7423-bc7a-474d4e86fc31",
+      "skills": [
+        "edit-timeline-studio"
+      ],
+      "taskType": "editing-style-reference-replication",
+      "capabilities": [
+        "reference-analysis",
+        "lawful-web-footage-sourcing",
+        "shot-function-mapping",
+        "multi-source-montage",
+        "feedback-driven-visual-qa",
+        "technical-media-validation"
+      ],
+      "pages": {
+        "en": "001-kiana-multi-battlesuit-remake/README.md",
+        "zhCN": "001-kiana-multi-battlesuit-remake/README.zh-CN.md"
+      },
+      "prompts": {
+        "originalBrief": "001-kiana-multi-battlesuit-remake/prompts/00-original-brief.md",
+        "productionBrief": "001-kiana-multi-battlesuit-remake/prompts/01-production-brief.md"
+      },
+      "assets": {
+        "cover": "001-kiana-multi-battlesuit-remake/assets/cover.webp",
+        "animatedPreview": "001-kiana-multi-battlesuit-remake/assets/preview.webp",
+        "contactSheet": "001-kiana-multi-battlesuit-remake/assets/contact-sheet.webp",
+        "result": "001-kiana-multi-battlesuit-remake/assets/result.mp4",
+        "timeline": "001-kiana-multi-battlesuit-remake/assets/kiana-multi-battlesuit-remake.timeline"
+      },
+      "verification": {
+        "width": 720,
+        "height": 1280,
+        "fps": 30,
+        "frames": 794,
+        "durationSeconds": 26.466667,
+        "sourceAudioMd5": "abe2377d77b8f66f257e07f8b3284f65",
+        "timelineKind": "archival-cut-reconstruction",
+        "timelineClipCount": 27
+      }
+    }
+  ]
+}

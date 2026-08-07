@@ -1,11 +1,11 @@
-name: 提交效果案例
-description: 分享一个使用 Timeline Studio 完成的真实案例
-title: "[Showcase]: "
-labels: ["showcase"]
+name: Submit a skill case / 提交 Skill 案例
+description: Share a real Timeline Studio skill session, prompt pack, and result
+title: "[Case]: "
+labels: ["case"]
 body:
   - type: markdown
     attributes:
-      value: 感谢分享。提交前请确认素材可以公开，并尽量提供可复现信息。
+      value: Thanks for sharing. 请确认素材可以公开，并提供 session、prompt、结果和验证信息。
   - type: input
     id: version
     attributes:

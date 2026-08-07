@@ -1,93 +1,104 @@
-# Timeline Studio Handbook
+# Awesome Timeline Studio Skills
 
-> My practical handbook for AI-assisted video creation, automated editing, and post-production review with Timeline Studio.
+> Real production cases, reusable prompts, and verifiable results created with Timeline Studio skills.
 
 English · [简体中文](README.zh-CN.md)
 
-[Workflow](docs/workflow.md) · [Showcases](showcases/README.md) · [Contributing](CONTRIBUTING.md)
+[Case Gallery](cases/README.md) · [Skill Workflow](docs/workflow.md) · [Contributing](CONTRIBUTING.md)
 
-## What this is
+![Cases](https://img.shields.io/badge/cases-1-ff6b35) ![Skills](https://img.shields.io/badge/skills-1-7c3aed) ![Language](https://img.shields.io/badge/language-English%20%7C%20中文-0ea5e9)
 
-This repository is not a feature catalog. It documents a repeatable and testable way to use Timeline Studio: starting from raw material and a delivery goal, structuring a timeline, applying AI assistance, controlling quality, and recording both the result and the decisions behind it.
+## Featured case
 
-The handbook is at an early stage. The first goal is to establish a clear format; real projects, prompts, timeline breakdowns, and exported results will follow.
+[![Kiana multi-battlesuit reference remake](cases/001-kiana-multi-battlesuit-remake/assets/preview.webp)](cases/001-kiana-multi-battlesuit-remake/README.md)
 
-> [!NOTE]
-> This is an unofficial personal-practice repository and is not affiliated with the Timeline Studio maintainers. Features and interfaces may change between versions. Refer to the [official repository](https://github.com/chatman-media/timeline-studio) for current product information.
+### Case 001 — Kiana multi-battlesuit reference remake
 
-## Why this repository exists
+The `edit-timeline-studio` skill reverse-engineered a 26.47-second reference, sourced traceable HD footage, rebuilt its rotated-landscape-in-portrait visual grammar, assembled multiple Kiana battlesuits, and refined character identity through user feedback.
 
-- Document a stable path from brief to finished video, not a collection of isolated tips.
-- Demonstrate whether a method works through real results and meaningful settings.
-- Preserve failed approaches and troubleshooting notes to reduce repeated work.
-- Let other users reproduce, discuss, and contribute their own workflows.
+| Skill | Core capabilities | Result | Prompt pack |
+| --- | --- | --- | --- |
+| `edit-timeline-studio` | Reference analysis, lawful footage sourcing, shot-function mapping, beat-accurate assembly, iterative visual QA, technical validation | [View case](cases/001-kiana-multi-battlesuit-remake/README.md) · [Watch MP4](cases/001-kiana-multi-battlesuit-remake/assets/result.mp4) · [Download `.timeline`](cases/001-kiana-multi-battlesuit-remake/assets/kiana-multi-battlesuit-remake.timeline) | [Original brief](cases/001-kiana-multi-battlesuit-remake/prompts/00-original-brief.md) · [Skill production brief](cases/001-kiana-multi-battlesuit-remake/prompts/01-production-brief.md) |
 
-## My core approach
+## Project vision
+
+This repository treats an Agent Skill as a production system rather than a short instruction file. Each case connects four things:
 
 ```text
-Define the goal → Organize assets → Design the rhythm → AI-assisted rough cut → Human refinement → QA → Export and review
+User intent → Skill workflow → Skill-derived production prompt → Verifiable output
 ```
 
-Four principles guide the process:
+The goal is to make skill capability visible and reusable:
 
-1. **Start with the outcome** — decide the platform, audience, duration, and viewing context before choosing aspect ratio or pacing.
-2. **Use AI for high-leverage work** — use it for media understanding, rough cuts, transcription, and version adaptation; keep narrative judgment and final taste human.
-3. **Make the process reproducible** — record the app version, source material, key operations, prompts, and export settings whenever possible.
-4. **Make results comparable** — show the final output, but also explain before/after changes, time spent, what worked, and what did not.
+- **Output first** — every featured case leads with the artifact, not a feature claim.
+- **Prompt as production code** — both the original request and the structured brief produced through skill use are preserved.
+- **Evidence over adjectives** — frame count, duration, dimensions, audio checks, sources, and known limitations are recorded.
+- **Iteration is part of the case** — user corrections and the resulting revisions are documented, not hidden.
+- **Reusable structure** — future sessions can be added without redesigning the repository.
 
-Read the complete [Timeline Studio workflow](docs/workflow.md).
+## Skill capability index
 
-## Showcases
+| Skill | Case count | Demonstrated capability | Cases |
+| --- | ---: | --- | --- |
+| `edit-timeline-studio` | 1 | Frame-aware reference recreation, web-footage research, multi-source editing, feedback-driven revision, delivery QA | [Case 001](cases/001-kiana-multi-battlesuit-remake/README.md) |
 
-Showcases are the heart of this repository. Each case should include as much of the following as possible:
+Future skills and mixed-skill workflows will be added here as their sessions are completed.
 
-- a finished video, preview GIF, or screenshots;
-- the project goal, target platform, and target duration;
-- source material and timeline structure;
-- AI features, prompts, and human adjustments;
-- export settings, production time, and lessons learned.
+## Case anatomy
 
-The first cases are being prepared. See the [showcase index](showcases/README.md) or copy the [case template](showcases/_template/README.md) to contribute your own work.
+Every case should include:
 
-| Case | Type | Goal | Status |
-| --- | --- | --- | --- |
-| First end-to-end workflow | To be decided | Show the complete path from source material to final export | In preparation |
+1. **Result** — an inline preview plus a full-quality or repository-safe output.
+2. **Session context** — session ID, original request, material constraints, and meaningful user corrections.
+3. **Skills used** — the named skill and the production capabilities it demonstrated.
+4. **Prompt pack** — the verbatim user brief and a reusable production prompt synthesized through the skill workflow.
+5. **Process** — major decisions, iterations, and rejected approaches.
+6. **Verification** — media metadata, technical checks, and acceptance evidence.
+7. **Provenance and limits** — source links, rights notes, missing artifacts, and honest boundaries.
+
+Browse the [full case gallery](cases/README.md) or use the [case template](cases/_template/README.md).
+
+## How to use this repository
+
+1. Start with a case whose output resembles your goal.
+2. Review the capability table and production decisions.
+3. Copy the case's skill-derived prompt and replace its variables.
+4. Invoke the named skill with your own authorized material.
+5. Validate the result using the case's acceptance criteria.
 
 ## Repository structure
 
 ```text
 timeline-studio-handbook/
-├── README.md                    # English entry point
-├── README.zh-CN.md              # Simplified Chinese entry point
-├── docs/                        # Workflows and guides
-├── showcases/                   # Case index, templates, and results
-├── CONTRIBUTING.md              # Contribution guide
-├── CODE_OF_CONDUCT.md           # Community standards
-└── .github/                     # Issue and pull request templates
+├── README.md                         # English-first gallery home
+├── README.zh-CN.md                   # Complete Simplified Chinese mirror
+├── cases/
+│   ├── README.md                     # Case index
+│   ├── _template/                    # Template for future sessions
+│   └── 001-kiana-multi-battlesuit-remake/
+│       ├── README.md                 # Case study
+│       ├── prompts/                  # Original and skill-derived prompts
+│       └── assets/                   # Preview, contact sheet, and result
+├── docs/                             # Shared workflows
+└── CONTRIBUTING.md                   # Contribution rules
 ```
-
-## Start here
-
-- Learn the method: read the [workflow](docs/workflow.md).
-- See the results: open the [showcase index](showcases/README.md).
-- Share your experience: read [CONTRIBUTING.md](CONTRIBUTING.md), then open an Issue or Pull Request.
-- Report outdated behavior: open a documentation Issue with the Timeline Studio version and operating system.
 
 ## Roadmap
 
-- [x] Establish the repository structure and community guidelines
-- [x] Publish reusable workflow and showcase templates
-- [ ] Add the first complete showcase
-- [ ] Add commonly used prompts and parameter notes
-- [ ] Add troubleshooting and frequently asked questions
-- [ ] Derive platform-specific export strategies from real projects
+- [x] Convert the handbook into an output-first skill case gallery
+- [x] Add the first real Codex session and prompt pack
+- [x] Add repository-safe visual and video previews
+- [ ] Add more `edit-timeline-studio` workflows
+- [ ] Add mixed-skill production cases
+- [ ] Add filters by skill, media type, and capability
+- [ ] Add an optional visual gallery website when the case count justifies it
 
-## Acknowledgements and references
+## Notes and disclaimer
 
-- [Timeline Studio](https://github.com/chatman-media/timeline-studio) — the open-source video editor used by this handbook.
-- [GitHub Community Standards](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions) — guidance for community and contribution files.
-- [Standard Readme](https://github.com/RichardLitt/standard-readme) — inspiration for README structure.
+This is an unofficial personal-practice repository and is not affiliated with the Timeline Studio maintainers, HoYoverse, or miHoYo. Product behavior can change; refer to the [Timeline Studio repository](https://github.com/chatman-media/timeline-studio) for current information.
+
+Case media may contain third-party material. It is included for non-commercial skill demonstration and methodology study with source attribution; ownership remains with the respective rights holders. Do not assume that case media is licensed for commercial reuse.
 
 ## License
 
-Unless otherwise noted, text, images, and case documentation are licensed under [CC BY 4.0](LICENSE). Third-party assets remain the property of their respective owners and must include source and licensing information when contributed.
+Original documentation and prompt structures are licensed under [CC BY 4.0](LICENSE) unless otherwise noted. Third-party media and referenced source material are excluded from that license.
