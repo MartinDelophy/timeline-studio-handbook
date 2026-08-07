@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-4-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-5-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 🎬 **Create your own:** [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor)
 
@@ -41,6 +41,14 @@ This gallery uses the shortest possible format to show what the `edit-timeline-s
 > Create a promotional video around this idea: creating content is easier than ever, and manual editing is becoming the old way.
 
 [Result video](cases/004-everyone-can-create-narrative/assets/result.mp4) · [Editable `.timeline`](cases/004-everyone-can-create-narrative/assets/everyone-can-create.timeline) · [Open case](cases/004-everyone-can-create-narrative/README.md)
+
+## Case 005 · Prompt → Cosmic Science Video
+
+[![Cosmic scale science video](cases/005-cosmic-scale-science/assets/preview.webp)](cases/005-cosmic-scale-science/README.md)
+
+> Create a stunning, easy-to-understand cosmic science video using web-sourced footage.
+
+[Result video](cases/005-cosmic-scale-science/assets/result.mp4) · [Editable `.timeline`](cases/005-cosmic-scale-science/assets/cosmic-scale.timeline) · [Open case](cases/005-cosmic-scale-science/README.md)
 
 ## The two formats
 
