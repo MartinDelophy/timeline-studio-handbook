@@ -2,11 +2,11 @@
 
 English · [简体中文](CONTRIBUTING.zh-CN.md)
 
-Thank you for improving Awesome Timeline Studio Skills. We welcome real session cases, reusable skill-derived prompts, workflow improvements, troubleshooting notes, and documentation corrections.
+Thank you for improving Timeline Studio Skill Cases. We welcome real, visually verifiable skill sessions.
 
 ## Ways to contribute
 
-- **Cases** — real skill sessions with a result, prompt pack, process, verification, and retrospective.
+- **Cases** — real skill sessions with a one-line prompt, result, and editable `.timeline` project.
 - **Prompt packs** — original user briefs plus clearly labeled reusable prompts produced through skill use.
 - **Workflows** — reproducible methods for a content type or platform.
 - **Corrections** — updates for version changes, inaccurate claims, or outdated steps.
@@ -44,7 +44,9 @@ Then open a Pull Request that explains what changed, why, and how it was verifie
 
 - Use a numbered lowercase kebab-case directory such as `002-interview-to-shorts`.
 - Every case must contain both `README.md` and `README.zh-CN.md`.
-- Include `prompts/00-original-brief.md` and `prompts/01-production-brief.md` when the session produced a reusable prompt.
+- Keep the main display simple: original video when available, one-line prompt, result video, and `.timeline` evidence.
+- Classify the case as **Comparison** when an original exists, otherwise **Standalone**.
+- Longer prompt packs are optional supporting material, not part of the main reading path.
 - Preserve explicit user requests, but never publish hidden reasoning, credentials, secrets, personal data, or private local paths.
 - Clearly distinguish user-authored prompts from prompts synthesized by a skill or maintainer.
 - Store local media under the case's own `assets/` directory. Never use absolute paths from your computer.

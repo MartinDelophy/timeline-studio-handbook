@@ -2,11 +2,11 @@
 
 [English](CONTRIBUTING.md) · 简体中文
 
-感谢你帮助完善 Awesome Timeline Studio Skills。这里欢迎真实 session 案例、可复用的 Skill 制作提示词、工作流改进、排错经验和文档修正。
+感谢你帮助完善 Timeline Studio Skill 案例库。这里欢迎真实、效果可直接验证的 Skill session。
 
 ## 可以贡献什么
 
-- **Skill 案例**：包含结果、提示词包、过程、验证和复盘的真实 session。
+- **Skill 案例**：包含一句话提示词、结果和可编辑 `.timeline` 工程的真实 session。
 - **提示词包**：用户原始 brief，以及清楚标注为 Skill 生成或整理的可复用提示词。
 - **工作流**：适用于某类内容或平台的可复现方法。
 - **经验修正**：对版本变化、错误说明或过时步骤的更新。
@@ -42,7 +42,9 @@ git push -u origin docs/short-description
 
 - 目录名使用编号加小写 kebab-case，例如 `002-interview-to-shorts`。
 - 每个案例必须同时包含 `README.md` 和 `README.zh-CN.md`。
-- session 产生可复用提示词时，加入 `prompts/00-original-brief.md` 和 `prompts/01-production-brief.md`。
+- 主展示保持极简：有原视频就放原视频，再放一句话提示词、结果视频和 `.timeline` 工程佐证。
+- 有原视频时归类为**对比型**，没有原视频时归类为**生成型**。
+- 更长的提示词包可以作为补充材料，但不要放进主阅读路径。
 - 可以保留用户明确输入，但不得公开隐藏推理、凭据、密钥、个人信息或私有本地路径。
 - 必须明确区分用户原始提示词和由 Skill 或维护者整理的衍生提示词。
 - 本地媒体放在案例自身的 `assets/` 下，不要引用个人电脑的绝对路径。
@@ -51,7 +53,7 @@ git push -u origin docs/short-description
 
 ## 写作约定
 
-- 默认使用简体中文；欢迎增加英文版本，但不要用机器翻译覆盖人工内容。
+- 英文为默认版本，并同步维护完整的简体中文版本。
 - 直接写清楚版本、操作和结果，避免无法验证的绝对化结论。
 - 命令、文件名和界面字段使用反引号。
 - 外部内容使用链接并注明来源，避免复制大段原文。

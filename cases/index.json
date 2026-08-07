@@ -1,50 +1,39 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "cases": [
     {
       "id": "001",
       "slug": "kiana-multi-battlesuit-remake",
-      "title": {
-        "en": "Kiana Multi-Battlesuit Reference Remake",
-        "zhCN": "琪亚娜多装甲参考视频复刻"
-      },
+      "displayMode": "comparison",
       "sessionId": "019fda07-8303-7423-bc7a-474d4e86fc31",
-      "skills": [
-        "edit-timeline-studio"
-      ],
-      "taskType": "editing-style-reference-replication",
-      "capabilities": [
-        "reference-analysis",
-        "lawful-web-footage-sourcing",
-        "shot-function-mapping",
-        "multi-source-montage",
-        "feedback-driven-visual-qa",
-        "technical-media-validation"
-      ],
-      "pages": {
-        "en": "001-kiana-multi-battlesuit-remake/README.md",
-        "zhCN": "001-kiana-multi-battlesuit-remake/README.zh-CN.md"
-      },
-      "prompts": {
-        "originalBrief": "001-kiana-multi-battlesuit-remake/prompts/00-original-brief.md",
-        "productionBrief": "001-kiana-multi-battlesuit-remake/prompts/01-production-brief.md"
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Kiana Reference Remake", "zhCN": "琪亚娜参考视频复刻"},
+      "prompt": {
+        "en": "Recreate this reference as a Kiana video with extremely similar framing and editing, using multiple battlesuits and HD CG footage.",
+        "zhCN": "参考这个视频复刻一条琪亚娜视频，画面位置和剪辑玩法要极度相似，并使用多套装甲与高清 CG 素材。"
       },
       "assets": {
-        "cover": "001-kiana-multi-battlesuit-remake/assets/cover.webp",
-        "animatedPreview": "001-kiana-multi-battlesuit-remake/assets/preview.webp",
-        "contactSheet": "001-kiana-multi-battlesuit-remake/assets/contact-sheet.webp",
+        "original": "001-kiana-multi-battlesuit-remake/assets/reference.mp4",
+        "comparison": "001-kiana-multi-battlesuit-remake/assets/comparison.webp",
         "result": "001-kiana-multi-battlesuit-remake/assets/result.mp4",
         "timeline": "001-kiana-multi-battlesuit-remake/assets/kiana-multi-battlesuit-remake.timeline"
+      }
+    },
+    {
+      "id": "002",
+      "slug": "claude-fable-5-promo",
+      "displayMode": "standalone",
+      "sessionId": "019fda2b-a99e-7b90-9a3d-ddf447f603bc",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Claude Fable 5 Promo", "zhCN": "Claude Fable 5 宣传片"},
+      "prompt": {
+        "en": "Create a promotional video for Claude Fable 5 using edit-timeline-studio.",
+        "zhCN": "帮我做一期 Claude Fable 5 的宣传视频，使用 edit-timeline-studio 来做。"
       },
-      "verification": {
-        "width": 720,
-        "height": 1280,
-        "fps": 30,
-        "frames": 794,
-        "durationSeconds": 26.466667,
-        "sourceAudioMd5": "abe2377d77b8f66f257e07f8b3284f65",
-        "timelineKind": "archival-cut-reconstruction",
-        "timelineClipCount": 27
+      "assets": {
+        "preview": "002-claude-fable-5-promo/assets/preview.webp",
+        "result": "002-claude-fable-5-promo/assets/result.mp4",
+        "timeline": "002-claude-fable-5-promo/assets/claude-fable-5-promo.timeline"
       }
     }
   ]
