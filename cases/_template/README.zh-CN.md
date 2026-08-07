@@ -1,52 +1,20 @@
-# Case NNN：案例标题
+# Case NNN · 标题
 
-[English](README.md) · 简体中文
+`对比型或生成型` · `skill-name` · [English](README.md)
 
-> 用一句话说明结果和展示的 Skill 能力。
+<!-- 仅对比型案例需要： -->
+## 1. 原视频
 
-<!-- 在这里添加 assets/preview.webp 动态预览。 -->
+[观看原视频](assets/original.mp4)
 
-## 案例信息
+## 2. 一句话提示词
 
-| 字段 | 内容 |
-| --- | --- |
-| Codex session | `SESSION_ID` |
-| Skill(s) | `skill-name` |
-| 任务类型 | — |
-| 输出 | — |
-| 可编辑工程 | 链接原生 `.timeline` 文件 |
+> 在这里放一句用户能看懂的提示词。
 
-## 用户原始意图
+## 3. 结果视频
 
-链接到 `prompts/00-original-brief.md`。保留用户明确输入，但删除密钥、私有路径和个人信息。
+[![动态预览](assets/preview.webp)](assets/result.mp4)
 
-## 展示的 Skill 能力
+[观看结果视频](assets/result.mp4) · [下载可编辑 `.timeline`](assets/project.timeline)
 
-用生产证据描述能力，并区分用户决策、Skill 工作流、工具和人工反馈。
-
-## 结果
-
-提供预览、完整结果、接触表或前后对比证据。
-
-## 提示词即生产代码
-
-链接原始 brief 和 Skill 整理出的可复用制作提示词，并清楚标记衍生内容。
-
-## 迭代记录
-
-| 版本 | 反馈或失败检查 | 修改 | 验证 |
-| --- | --- | --- | --- |
-
-## 验证
-
-记录产物参数和验收检查，避免无法支持的质量声明。
-
-视频案例只要 Skill 支持，就应附上原生多源 `.timeline`。如果工程是事后重建的，必须明确标注重建方式和限制。
-
-## 已知限制
-
-说明缺失产物、未验证行为或能力边界。
-
-## 来源、权利与署名
-
-列出来源和使用依据，明确把第三方媒体排除在仓库许可之外。
+Session：`SESSION_ID`
