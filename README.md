@@ -6,6 +6,8 @@ English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
 ![Cases](https://img.shields.io/badge/cases-2-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
+🎬 **Create your own:** [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor)
+
 This gallery uses the shortest possible format to show what the `edit-timeline-studio` skill can do.
 
 ## Case 001 · Original → Result

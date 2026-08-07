@@ -6,6 +6,8 @@
 
 ![案例数](https://img.shields.io/badge/cases-2-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
+🎬 **制作你自己的视频：** [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor)
+
 这个案例库用最短的展示路径，直接证明 `edit-timeline-studio` skill 能做什么。
 
 ## Case 001 · 原视频 → 结果

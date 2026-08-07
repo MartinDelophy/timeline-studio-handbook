@@ -1,6 +1,6 @@
 # Case 002 · Claude Fable 5 Promo
 
-`Standalone` · `edit-timeline-studio` · [简体中文](README.zh-CN.md)
+`Standalone` · `edit-timeline-studio` · Built with [Timeline Studio](https://github.com/MartinDelophy/ai-video-editor) · [简体中文](README.zh-CN.md)
 
 ## 1. One-line prompt
 
