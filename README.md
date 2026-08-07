@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-5-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-6-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -57,6 +57,14 @@ One prompt. One result. One editable `.timeline` project.
 > Create a stunning, easy-to-understand cosmic science video using web-sourced footage.
 
 [Result video](cases/005-cosmic-scale-science/assets/result.mp4) · [Editable `.timeline`](cases/005-cosmic-scale-science/assets/cosmic-scale.timeline) · [Open case](cases/005-cosmic-scale-science/README.md)
+
+## Case 006 · Original → Cat Highlight Result
+
+[![Reference and cat highlight result shown side by side](cases/006-cat-highlight-replication/assets/comparison.webp)](cases/006-cat-highlight-replication/README.md)
+
+> Use this reference to turn the cat footage into a matching highlight edit: keep the original BGM, remove the final two-second Douyin voice, and recreate its repetition and dramatic tension.
+
+[Original video](cases/006-cat-highlight-replication/assets/reference.mp4) → [Result video](cases/006-cat-highlight-replication/assets/result.mp4) · [Editable `.timeline`](cases/006-cat-highlight-replication/assets/cat-highlight-replication.timeline) · [Open case](cases/006-cat-highlight-replication/README.md)
 
 ## The two formats
 
