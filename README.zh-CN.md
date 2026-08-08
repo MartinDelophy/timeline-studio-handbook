@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-6-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-7-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -65,6 +65,14 @@
 > 参考这个视频，把这些小猫素材剪成同类高光效果：保留原生 BGM，去掉最后 2 秒抖音语音，并复刻其中的重复与张力感。
 
 [原视频](cases/006-cat-highlight-replication/assets/reference.mp4) → [结果视频](cases/006-cat-highlight-replication/assets/result.mp4) · [可编辑 `.timeline`](cases/006-cat-highlight-replication/assets/cat-highlight-replication.timeline) · [查看案例](cases/006-cat-highlight-replication/README.zh-CN.md)
+
+## Case 007 · 提示词 → 励志短片
+
+[![从低谷走向日出的励志视频](cases/007-reclaim-yourself/assets/preview.webp)](cases/007-reclaim-yourself/README.zh-CN.md)
+
+> 我正处在人生低谷，请使用 `edit-timeline-studio` 和合适的网络素材，做一条能鼓舞我的励志视频。
+
+[结果视频](cases/007-reclaim-yourself/assets/result.mp4) · [可编辑 `.timeline`](cases/007-reclaim-yourself/assets/reclaim-yourself.timeline) · [查看案例](cases/007-reclaim-yourself/README.zh-CN.md)
 
 ## 两种展示类型
 
