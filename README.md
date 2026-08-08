@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-6-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-7-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -65,6 +65,14 @@ One prompt. One result. One editable `.timeline` project.
 > Use this reference to turn the cat footage into a matching highlight edit: keep the original BGM, remove the final two-second Douyin voice, and recreate its repetition and dramatic tension.
 
 [Original video](cases/006-cat-highlight-replication/assets/reference.mp4) → [Result video](cases/006-cat-highlight-replication/assets/result.mp4) · [Editable `.timeline`](cases/006-cat-highlight-replication/assets/cat-highlight-replication.timeline) · [Open case](cases/006-cat-highlight-replication/README.md)
+
+## Case 007 · Prompt → Motivational Short
+
+[![Motivational video moving from a low point toward sunrise](cases/007-reclaim-yourself/assets/preview.webp)](cases/007-reclaim-yourself/README.md)
+
+> I am going through a low point in life. Use `edit-timeline-studio` and suitable web-sourced footage to create a motivational video that encourages me.
+
+[Result video](cases/007-reclaim-yourself/assets/result.mp4) · [Editable `.timeline`](cases/007-reclaim-yourself/assets/reclaim-yourself.timeline) · [Open case](cases/007-reclaim-yourself/README.md)
 
 ## The two formats
 

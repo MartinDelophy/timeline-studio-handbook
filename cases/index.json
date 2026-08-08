@@ -108,6 +108,23 @@
         "result": "006-cat-highlight-replication/assets/result.mp4",
         "timeline": "006-cat-highlight-replication/assets/cat-highlight-replication.timeline"
       }
+    },
+    {
+      "id": "007",
+      "slug": "reclaim-yourself",
+      "displayMode": "standalone",
+      "sessionId": "019fe080-79b5-7680-9feb-8410ddbf3ec5",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Reclaim Yourself", "zhCN": "把自己接回来"},
+      "prompt": {
+        "en": "I am going through a low point in life. Use edit-timeline-studio and suitable web-sourced footage to create a motivational video that encourages me.",
+        "zhCN": "我正处在人生低谷，请使用 edit-timeline-studio 和合适的网络素材，做一条能鼓舞我的励志视频。"
+      },
+      "assets": {
+        "preview": "007-reclaim-yourself/assets/preview.webp",
+        "result": "007-reclaim-yourself/assets/result.mp4",
+        "timeline": "007-reclaim-yourself/assets/reclaim-yourself.timeline"
+      }
     }
   ]
 }
