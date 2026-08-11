@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-7-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-8-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -73,6 +73,14 @@ One prompt. One result. One editable `.timeline` project.
 > I am going through a low point in life. Use `edit-timeline-studio` and suitable web-sourced footage to create a motivational video that encourages me.
 
 [Result video](cases/007-reclaim-yourself/assets/result.mp4) · [Editable `.timeline`](cases/007-reclaim-yourself/assets/reclaim-yourself.timeline) · [Open case](cases/007-reclaim-yourself/README.md)
+
+## Case 008 · Prompt → English Motivational Video
+
+[![Rise Anyway English motivational video](cases/008-rise-anyway/assets/preview.webp)](cases/008-rise-anyway/README.md)
+
+> Create an uplifting English motivational video with the latest `edit-timeline-studio`, using suitable web-sourced footage.
+
+[Result video](cases/008-rise-anyway/assets/result.mp4) · [Editable `.timeline`](cases/008-rise-anyway/assets/rise-anyway.timeline) · [Open case](cases/008-rise-anyway/README.md)
 
 ## The two formats
 
