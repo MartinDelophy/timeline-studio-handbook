@@ -125,6 +125,23 @@
         "result": "007-reclaim-yourself/assets/result.mp4",
         "timeline": "007-reclaim-yourself/assets/reclaim-yourself.timeline"
       }
+    },
+    {
+      "id": "008",
+      "slug": "rise-anyway",
+      "displayMode": "standalone",
+      "sessionId": "019fefe9-09f9-7c11-be8c-3d7891845dfb",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Rise Anyway", "zhCN": "Rise Anyway"},
+      "prompt": {
+        "en": "Create an uplifting English motivational video with the latest edit-timeline-studio, using suitable web-sourced footage.",
+        "zhCN": "使用最新版 edit-timeline-studio 和合适的网络素材，制作一条以鼓舞为主的英文励志视频。"
+      },
+      "assets": {
+        "preview": "008-rise-anyway/assets/preview.webp",
+        "result": "008-rise-anyway/assets/result.mp4",
+        "timeline": "008-rise-anyway/assets/rise-anyway.timeline"
+      }
     }
   ]
 }

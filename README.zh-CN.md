@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-7-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-8-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -73,6 +73,14 @@
 > 我正处在人生低谷，请使用 `edit-timeline-studio` 和合适的网络素材，做一条能鼓舞我的励志视频。
 
 [结果视频](cases/007-reclaim-yourself/assets/result.mp4) · [可编辑 `.timeline`](cases/007-reclaim-yourself/assets/reclaim-yourself.timeline) · [查看案例](cases/007-reclaim-yourself/README.zh-CN.md)
+
+## Case 008 · 提示词 → 英文励志视频
+
+[![Rise Anyway 英文励志视频](cases/008-rise-anyway/assets/preview.webp)](cases/008-rise-anyway/README.zh-CN.md)
+
+> 使用最新版 `edit-timeline-studio` 和合适的网络素材，制作一条以鼓舞为主的英文励志视频。
+
+[结果视频](cases/008-rise-anyway/assets/result.mp4) · [可编辑 `.timeline`](cases/008-rise-anyway/assets/rise-anyway.timeline) · [查看案例](cases/008-rise-anyway/README.zh-CN.md)
 
 ## 两种展示类型
 

@@ -11,5 +11,6 @@
 | [005 · 宇宙尺度](005-cosmic-scale-science/README.zh-CN.md) | 生成型 | 使用网络素材制作一条效果惊艳、简单易懂的宇宙知识科普视频。 | [结果](005-cosmic-scale-science/assets/result.mp4) · [`.timeline`](005-cosmic-scale-science/assets/cosmic-scale.timeline) |
 | [006 · 小猫高光复刻](006-cat-highlight-replication/README.zh-CN.md) | 对比型 | 参考视频把小猫素材剪成同类高光效果，保留原生 BGM，并复刻重复节拍与张力感。 | [原视频](006-cat-highlight-replication/assets/reference.mp4) · [结果](006-cat-highlight-replication/assets/result.mp4) · [`.timeline`](006-cat-highlight-replication/assets/cat-highlight-replication.timeline) |
 | [007 · 把自己接回来](007-reclaim-yourself/README.zh-CN.md) | 生成型 | 使用网络素材，为正处在人生低谷的人制作一条励志鼓舞视频。 | [结果](007-reclaim-yourself/assets/result.mp4) · [`.timeline`](007-reclaim-yourself/assets/reclaim-yourself.timeline) |
+| [008 · Rise Anyway](008-rise-anyway/README.zh-CN.md) | 生成型 | 使用合适的网络素材制作一条以鼓舞为主的英文励志视频。 | [结果](008-rise-anyway/assets/result.mp4) · [`.timeline`](008-rise-anyway/assets/rise-anyway.timeline) |
 
 添加新案例时复制[极简模板](_template/README.zh-CN.md)。另提供[机器可读索引](index.json)。
