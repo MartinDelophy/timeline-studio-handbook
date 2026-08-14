@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-8-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-9-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -81,6 +81,14 @@ One prompt. One result. One editable `.timeline` project.
 > Create an uplifting English motivational video with the latest `edit-timeline-studio`, using suitable web-sourced footage.
 
 [Result video](cases/008-rise-anyway/assets/result.mp4) · [Editable `.timeline`](cases/008-rise-anyway/assets/rise-anyway.timeline) · [Open case](cases/008-rise-anyway/README.md)
+
+## Case 009 · Prompt → Speed Curve Feature Demo
+
+[![Timeline Studio visual speed curve feature video](cases/009-speed-curve-feature-intro/assets/preview.webp)](cases/009-speed-curve-feature-intro/README.md)
+
+> Use `edit-timeline-studio` to introduce the newly added visual speed-curve capability and deliver the final video.
+
+[Result video](cases/009-speed-curve-feature-intro/assets/result.mp4) · [Editable `.timeline`](cases/009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline) · [Open case](cases/009-speed-curve-feature-intro/README.md)
 
 ## The two formats
 
