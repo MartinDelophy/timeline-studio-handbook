@@ -142,6 +142,23 @@
         "result": "008-rise-anyway/assets/result.mp4",
         "timeline": "008-rise-anyway/assets/rise-anyway.timeline"
       }
+    },
+    {
+      "id": "009",
+      "slug": "speed-curve-feature-intro",
+      "displayMode": "standalone",
+      "sessionId": "019fff52-fc2a-7d71-a7a2-c0dc7621ea7a",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Visual Speed Curve Feature", "zhCN": "画面速度曲线功能介绍"},
+      "prompt": {
+        "en": "Use edit-timeline-studio to introduce the newly added visual speed-curve capability and deliver the final video.",
+        "zhCN": "使用 edit-timeline-studio 介绍新增的画面速度曲线能力，并最终生成视频。"
+      },
+      "assets": {
+        "preview": "009-speed-curve-feature-intro/assets/preview.webp",
+        "result": "009-speed-curve-feature-intro/assets/result.mp4",
+        "timeline": "009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline"
+      }
     }
   ]
 }
