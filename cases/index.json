@@ -159,6 +159,23 @@
         "result": "009-speed-curve-feature-intro/assets/result.mp4",
         "timeline": "009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline"
       }
+    },
+    {
+      "id": "010",
+      "slug": "orange-pulp-promo",
+      "displayMode": "standalone",
+      "sessionId": "01a00dc1-ca36-7921-b501-6d98145fa2e8",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Minute Maid Pulpy Orange Promo", "zhCN": "果粒橙宣传片"},
+      "prompt": {
+        "en": "Create a promotional video for Minute Maid Pulpy Orange with edit-timeline-studio, using Qinglan Mandarin voiceover and a warm piano score.",
+        "zhCN": "使用 edit-timeline-studio 制作一条果粒橙宣传片，加入晴岚中文配音，并把背景音乐换成温暖的钢琴风格。"
+      },
+      "assets": {
+        "preview": "010-orange-pulp-promo/assets/preview.webp",
+        "result": "010-orange-pulp-promo/assets/result.mp4",
+        "timeline": "010-orange-pulp-promo/assets/orange-pulp-promo.timeline"
+      }
     }
   ]
 }
