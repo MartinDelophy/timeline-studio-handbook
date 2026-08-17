@@ -13,5 +13,6 @@ English · [简体中文](README.zh-CN.md)
 | [007 · Reclaim Yourself](007-reclaim-yourself/README.md) | Standalone | Use web-sourced footage to create a motivational video for someone going through a low point in life. | [Result](007-reclaim-yourself/assets/result.mp4) · [`.timeline`](007-reclaim-yourself/assets/reclaim-yourself.timeline) |
 | [008 · Rise Anyway](008-rise-anyway/README.md) | Standalone | Create an uplifting English motivational video with suitable web-sourced footage. | [Result](008-rise-anyway/assets/result.mp4) · [`.timeline`](008-rise-anyway/assets/rise-anyway.timeline) |
 | [009 · Visual speed curve feature](009-speed-curve-feature-intro/README.md) | Standalone | Introduce the newly added visual speed-curve capability and deliver the final video. | [Result](009-speed-curve-feature-intro/assets/result.mp4) · [`.timeline`](009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline) |
+| [010 · Minute Maid Pulpy Orange promo](010-orange-pulp-promo/README.md) | Standalone | Create a Minute Maid Pulpy Orange promotional video with Qinglan Mandarin voiceover and a warm piano score. | [Result](010-orange-pulp-promo/assets/result.mp4) · [`.timeline`](010-orange-pulp-promo/assets/orange-pulp-promo.timeline) |
 
 To add one, copy the [minimal template](_template/README.md). A [machine-readable index](index.json) is also available.

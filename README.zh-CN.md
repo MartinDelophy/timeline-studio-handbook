@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-9-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-10-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -89,6 +89,14 @@
 > 使用 `edit-timeline-studio` 介绍新增的画面速度曲线能力，并最终生成视频。
 
 [结果视频](cases/009-speed-curve-feature-intro/assets/result.mp4) · [可编辑 `.timeline`](cases/009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline) · [查看案例](cases/009-speed-curve-feature-intro/README.zh-CN.md)
+
+## Case 010 · 提示词 → 品牌宣传片
+
+[![果粒橙宣传片](cases/010-orange-pulp-promo/assets/preview.webp)](cases/010-orange-pulp-promo/README.zh-CN.md)
+
+> 使用 `edit-timeline-studio` 制作一条果粒橙宣传片，加入晴岚中文配音，并把背景音乐换成温暖的钢琴风格。
+
+[结果视频](cases/010-orange-pulp-promo/assets/result.mp4) · [可编辑 `.timeline`](cases/010-orange-pulp-promo/assets/orange-pulp-promo.timeline) · [查看案例](cases/010-orange-pulp-promo/README.zh-CN.md)
 
 ## 两种展示类型
 

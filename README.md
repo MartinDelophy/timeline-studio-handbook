@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-9-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-10-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -89,6 +89,14 @@ One prompt. One result. One editable `.timeline` project.
 > Use `edit-timeline-studio` to introduce the newly added visual speed-curve capability and deliver the final video.
 
 [Result video](cases/009-speed-curve-feature-intro/assets/result.mp4) · [Editable `.timeline`](cases/009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline) · [Open case](cases/009-speed-curve-feature-intro/README.md)
+
+## Case 010 · Prompt → Brand Promo
+
+[![Minute Maid Pulpy Orange promotional video](cases/010-orange-pulp-promo/assets/preview.webp)](cases/010-orange-pulp-promo/README.md)
+
+> Create a promotional video for Minute Maid Pulpy Orange with `edit-timeline-studio`, using Qinglan Mandarin voiceover and a warm piano score.
+
+[Result video](cases/010-orange-pulp-promo/assets/result.mp4) · [Editable `.timeline`](cases/010-orange-pulp-promo/assets/orange-pulp-promo.timeline) · [Open case](cases/010-orange-pulp-promo/README.md)
 
 ## The two formats
 
