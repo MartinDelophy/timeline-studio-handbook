@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-10-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-11-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -97,6 +97,14 @@ One prompt. One result. One editable `.timeline` project.
 > Create a promotional video for Minute Maid Pulpy Orange with `edit-timeline-studio`, using Qinglan Mandarin voiceover and a warm piano score.
 
 [Result video](cases/010-orange-pulp-promo/assets/result.mp4) · [Editable `.timeline`](cases/010-orange-pulp-promo/assets/orange-pulp-promo.timeline) · [Open case](cases/010-orange-pulp-promo/README.md)
+
+## Case 011 · Prompt → Mathematics Explainer
+
+[![Lagrange Mean Value Theorem explainer](cases/011-lagrange-mean-value-theorem/assets/preview.webp)](cases/011-lagrange-mean-value-theorem/README.md)
+
+> Use the latest `edit-timeline-studio` skill to create a mathematical explainer video about the Lagrange Mean Value Theorem.
+
+[Result video](cases/011-lagrange-mean-value-theorem/assets/result.mp4) · [Editable `.timeline`](cases/011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline) · [Open case](cases/011-lagrange-mean-value-theorem/README.md)
 
 ## The two formats
 

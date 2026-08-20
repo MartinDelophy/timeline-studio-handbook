@@ -176,6 +176,23 @@
         "result": "010-orange-pulp-promo/assets/result.mp4",
         "timeline": "010-orange-pulp-promo/assets/orange-pulp-promo.timeline"
       }
+    },
+    {
+      "id": "011",
+      "slug": "lagrange-mean-value-theorem",
+      "displayMode": "standalone",
+      "sessionId": "01a01ea6-bea9-78e1-8df1-1341d6d7bb97",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Lagrange Mean Value Theorem", "zhCN": "拉格朗日中值定理科普"},
+      "prompt": {
+        "en": "Use the latest edit-timeline-studio skill to create a mathematical explainer video about the Lagrange Mean Value Theorem.",
+        "zhCN": "使用最新版 edit-timeline-studio skill，制作一期讲解拉格朗日中值定理的数学科普视频。"
+      },
+      "assets": {
+        "preview": "011-lagrange-mean-value-theorem/assets/preview.webp",
+        "result": "011-lagrange-mean-value-theorem/assets/result.mp4",
+        "timeline": "011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline"
+      }
     }
   ]
 }

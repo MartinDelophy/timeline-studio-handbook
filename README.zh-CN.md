@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-10-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-11-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -97,6 +97,14 @@
 > 使用 `edit-timeline-studio` 制作一条果粒橙宣传片，加入晴岚中文配音，并把背景音乐换成温暖的钢琴风格。
 
 [结果视频](cases/010-orange-pulp-promo/assets/result.mp4) · [可编辑 `.timeline`](cases/010-orange-pulp-promo/assets/orange-pulp-promo.timeline) · [查看案例](cases/010-orange-pulp-promo/README.zh-CN.md)
+
+## Case 011 · 提示词 → 数学科普视频
+
+[![拉格朗日中值定理科普](cases/011-lagrange-mean-value-theorem/assets/preview.webp)](cases/011-lagrange-mean-value-theorem/README.zh-CN.md)
+
+> 使用最新版 `edit-timeline-studio` skill，制作一期讲解拉格朗日中值定理的数学科普视频。
+
+[结果视频](cases/011-lagrange-mean-value-theorem/assets/result.mp4) · [可编辑 `.timeline`](cases/011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline) · [查看案例](cases/011-lagrange-mean-value-theorem/README.zh-CN.md)
 
 ## 两种展示类型
 
