@@ -14,5 +14,6 @@
 | [008 · Rise Anyway](008-rise-anyway/README.zh-CN.md) | 生成型 | 使用合适的网络素材制作一条以鼓舞为主的英文励志视频。 | [结果](008-rise-anyway/assets/result.mp4) · [`.timeline`](008-rise-anyway/assets/rise-anyway.timeline) |
 | [009 · 画面速度曲线功能介绍](009-speed-curve-feature-intro/README.zh-CN.md) | 生成型 | 介绍新增的画面速度曲线能力，并最终生成视频。 | [结果](009-speed-curve-feature-intro/assets/result.mp4) · [`.timeline`](009-speed-curve-feature-intro/assets/speed-curve-feature-intro.timeline) |
 | [010 · 果粒橙宣传片](010-orange-pulp-promo/README.zh-CN.md) | 生成型 | 制作一条果粒橙宣传片，加入晴岚中文配音和温暖的钢琴伴奏。 | [结果](010-orange-pulp-promo/assets/result.mp4) · [`.timeline`](010-orange-pulp-promo/assets/orange-pulp-promo.timeline) |
+| [011 · 拉格朗日中值定理科普](011-lagrange-mean-value-theorem/README.zh-CN.md) | 生成型 | 制作一期讲解拉格朗日中值定理的数学科普视频。 | [结果](011-lagrange-mean-value-theorem/assets/result.mp4) · [`.timeline`](011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline) |
 
 添加新案例时复制[极简模板](_template/README.zh-CN.md)。另提供[机器可读索引](index.json)。
