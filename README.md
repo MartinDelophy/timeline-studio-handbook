@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-11-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-12-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -105,6 +105,14 @@ One prompt. One result. One editable `.timeline` project.
 > Use the latest `edit-timeline-studio` skill to create a mathematical explainer video about the Lagrange Mean Value Theorem.
 
 [Result video](cases/011-lagrange-mean-value-theorem/assets/result.mp4) · [Editable `.timeline`](cases/011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline) · [Open case](cases/011-lagrange-mean-value-theorem/README.md)
+
+## Case 012 · Original → 15-Second Memory Highlight
+
+[![Original footage and memory highlight result shown side by side](cases/012-memory-highlight-recut/assets/comparison.webp)](cases/012-memory-highlight-recut/README.md)
+
+> Turn my source footage into a 15-second memory highlight with beat-synced flashbacks, a midpoint flash transition, and a new three-second ending from a second clip.
+
+[Original video](cases/012-memory-highlight-recut/assets/reference.mp4) → [Result video](cases/012-memory-highlight-recut/assets/result.mp4) · [Editable `.timeline`](cases/012-memory-highlight-recut/assets/memory-highlight-recut.timeline) · [Open case](cases/012-memory-highlight-recut/README.md)
 
 ## The two formats
 
