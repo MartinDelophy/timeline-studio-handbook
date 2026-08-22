@@ -193,6 +193,24 @@
         "result": "011-lagrange-mean-value-theorem/assets/result.mp4",
         "timeline": "011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline"
       }
+    },
+    {
+      "id": "012",
+      "slug": "memory-highlight-recut",
+      "displayMode": "comparison",
+      "sessionId": "01a02866-7693-7721-973f-dc529adbf70b",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "15-Second Memory Highlight Recut", "zhCN": "15 秒回忆高光重剪"},
+      "prompt": {
+        "en": "Turn my source footage into a 15-second memory highlight: cut multiple beat-synced flashbacks to the music peak around 1:20, add a midpoint flash transition, and use 2:48–2:51 from the second clip as the final three seconds.",
+        "zhCN": "把原素材剪成 15 秒回忆高光：围绕音乐约 1:20 的高潮做多段踩点闪回，中间加入闪白过渡，并把第二段素材的 2:48–2:51 用作最后 3 秒。"
+      },
+      "assets": {
+        "original": "012-memory-highlight-recut/assets/reference.mp4",
+        "comparison": "012-memory-highlight-recut/assets/comparison.webp",
+        "result": "012-memory-highlight-recut/assets/result.mp4",
+        "timeline": "012-memory-highlight-recut/assets/memory-highlight-recut.timeline"
+      }
     }
   ]
 }

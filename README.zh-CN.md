@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-11-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-12-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -105,6 +105,14 @@
 > 使用最新版 `edit-timeline-studio` skill，制作一期讲解拉格朗日中值定理的数学科普视频。
 
 [结果视频](cases/011-lagrange-mean-value-theorem/assets/result.mp4) · [可编辑 `.timeline`](cases/011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline) · [查看案例](cases/011-lagrange-mean-value-theorem/README.zh-CN.md)
+
+## Case 012 · 原素材 → 15 秒回忆高光
+
+[![原素材与回忆高光结果左右对比](cases/012-memory-highlight-recut/assets/comparison.webp)](cases/012-memory-highlight-recut/README.zh-CN.md)
+
+> 把原素材剪成 15 秒回忆高光：围绕音乐高潮做多段踩点闪回，中间加入闪白过渡，并使用第二段素材制作新的 3 秒结尾。
+
+[原视频](cases/012-memory-highlight-recut/assets/reference.mp4) → [结果视频](cases/012-memory-highlight-recut/assets/result.mp4) · [可编辑 `.timeline`](cases/012-memory-highlight-recut/assets/memory-highlight-recut.timeline) · [查看案例](cases/012-memory-highlight-recut/README.zh-CN.md)
 
 ## 两种展示类型
 
