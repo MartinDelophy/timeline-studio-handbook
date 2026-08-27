@@ -211,6 +211,23 @@
         "result": "012-memory-highlight-recut/assets/result.mp4",
         "timeline": "012-memory-highlight-recut/assets/memory-highlight-recut.timeline"
       }
+    },
+    {
+      "id": "013",
+      "slug": "timeline-studio-overseas-promo",
+      "displayMode": "standalone",
+      "sessionId": "01a04136-36af-7631-afad-28ca3d2e321f",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Timeline Studio Overseas Promo", "zhCN": "Timeline Studio 海外英文宣传片"},
+      "prompt": {
+        "en": "Use the latest edit-timeline-studio to create a refined, elegant introduction video for my project, with English voiceover for an overseas audience.",
+        "zhCN": "使用最新版 edit-timeline-studio 为我的项目制作一条精致典雅的介绍视频，采用英文配音，面向海外受众。"
+      },
+      "assets": {
+        "preview": "013-timeline-studio-overseas-promo/assets/preview.webp",
+        "result": "013-timeline-studio-overseas-promo/assets/result.mp4",
+        "timeline": "013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline"
+      }
     }
   ]
 }

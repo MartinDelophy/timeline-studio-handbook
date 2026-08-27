@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-12-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-13-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -113,6 +113,14 @@ One prompt. One result. One editable `.timeline` project.
 > Turn my source footage into a 15-second memory highlight with beat-synced flashbacks, a midpoint flash transition, and a new three-second ending from a second clip.
 
 [Original video](cases/012-memory-highlight-recut/assets/reference.mp4) → [Result video](cases/012-memory-highlight-recut/assets/result.mp4) · [Editable `.timeline`](cases/012-memory-highlight-recut/assets/memory-highlight-recut.timeline) · [Open case](cases/012-memory-highlight-recut/README.md)
+
+## Case 013 · Prompt → Overseas Product Promo
+
+[![Timeline Studio overseas promotional video](cases/013-timeline-studio-overseas-promo/assets/preview.webp)](cases/013-timeline-studio-overseas-promo/README.md)
+
+> Create a refined, elegant introduction video for Timeline Studio, with English voiceover for an overseas audience.
+
+[Result video](cases/013-timeline-studio-overseas-promo/assets/result.mp4) · [Editable `.timeline`](cases/013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline) · [Open case](cases/013-timeline-studio-overseas-promo/README.md)
 
 ## The two formats
 

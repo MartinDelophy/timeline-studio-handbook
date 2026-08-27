@@ -16,5 +16,6 @@
 | [010 · 果粒橙宣传片](010-orange-pulp-promo/README.zh-CN.md) | 生成型 | 制作一条果粒橙宣传片，加入晴岚中文配音和温暖的钢琴伴奏。 | [结果](010-orange-pulp-promo/assets/result.mp4) · [`.timeline`](010-orange-pulp-promo/assets/orange-pulp-promo.timeline) |
 | [011 · 拉格朗日中值定理科普](011-lagrange-mean-value-theorem/README.zh-CN.md) | 生成型 | 制作一期讲解拉格朗日中值定理的数学科普视频。 | [结果](011-lagrange-mean-value-theorem/assets/result.mp4) · [`.timeline`](011-lagrange-mean-value-theorem/assets/lagrange-mean-value-theorem.timeline) |
 | [012 · 15 秒回忆高光](012-memory-highlight-recut/README.zh-CN.md) | 对比型 | 把原素材剪成踩点回忆高光，加入中点闪白和新的结尾。 | [原视频](012-memory-highlight-recut/assets/reference.mp4) · [结果](012-memory-highlight-recut/assets/result.mp4) · [`.timeline`](012-memory-highlight-recut/assets/memory-highlight-recut.timeline) |
+| [013 · Timeline Studio 海外英文宣传片](013-timeline-studio-overseas-promo/README.zh-CN.md) | 生成型 | 制作一条精致典雅、采用英文配音的海外项目介绍视频。 | [结果](013-timeline-studio-overseas-promo/assets/result.mp4) · [`.timeline`](013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline) |
 
 添加新案例时复制[极简模板](_template/README.zh-CN.md)。另提供[机器可读索引](index.json)。

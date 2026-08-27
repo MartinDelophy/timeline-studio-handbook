@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-12-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-13-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -113,6 +113,14 @@
 > 把原素材剪成 15 秒回忆高光：围绕音乐高潮做多段踩点闪回，中间加入闪白过渡，并使用第二段素材制作新的 3 秒结尾。
 
 [原视频](cases/012-memory-highlight-recut/assets/reference.mp4) → [结果视频](cases/012-memory-highlight-recut/assets/result.mp4) · [可编辑 `.timeline`](cases/012-memory-highlight-recut/assets/memory-highlight-recut.timeline) · [查看案例](cases/012-memory-highlight-recut/README.zh-CN.md)
+
+## Case 013 · 提示词 → 海外产品宣传片
+
+[![Timeline Studio 海外英文宣传片](cases/013-timeline-studio-overseas-promo/assets/preview.webp)](cases/013-timeline-studio-overseas-promo/README.zh-CN.md)
+
+> 为 Timeline Studio 制作一条精致典雅的介绍视频，采用英文配音，面向海外受众。
+
+[结果视频](cases/013-timeline-studio-overseas-promo/assets/result.mp4) · [可编辑 `.timeline`](cases/013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline) · [查看案例](cases/013-timeline-studio-overseas-promo/README.zh-CN.md)
 
 ## 两种展示类型
 
