@@ -4,7 +4,7 @@
 
 English · [简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
 
-![Cases](https://img.shields.io/badge/cases-13-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![Cases](https://img.shields.io/badge/cases-14-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > These Skills are executed by [Timeline Studio — the open-source AI video editor](https://github.com/MartinDelophy/ai-video-editor).
 >
@@ -121,6 +121,14 @@ One prompt. One result. One editable `.timeline` project.
 > Create a refined, elegant introduction video for Timeline Studio, with English voiceover for an overseas audience.
 
 [Result video](cases/013-timeline-studio-overseas-promo/assets/result.mp4) · [Editable `.timeline`](cases/013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline) · [Open case](cases/013-timeline-studio-overseas-promo/README.md)
+
+## Case 014 · Video → Depth Map
+
+[![Qinglin video converted into a grayscale depth map](cases/014-qinglin-depth-map-extraction/assets/preview.webp)](cases/014-qinglin-depth-map-extraction/README.md)
+
+> Convert this 14-second video into a per-frame grayscale depth-map video with Timeline Studio's depth-extraction capability.
+
+[Result video](cases/014-qinglin-depth-map-extraction/assets/result.mp4) · [Editable `.timeline`](cases/014-qinglin-depth-map-extraction/assets/qinglin-depth-map.timeline) · [Open case](cases/014-qinglin-depth-map-extraction/README.md)
 
 ## The two formats
 
