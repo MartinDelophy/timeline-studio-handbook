@@ -228,6 +228,23 @@
         "result": "013-timeline-studio-overseas-promo/assets/result.mp4",
         "timeline": "013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline"
       }
+    },
+    {
+      "id": "014",
+      "slug": "qinglin-depth-map-extraction",
+      "displayMode": "standalone",
+      "sessionId": "01a104ed-d3a8-7751-ae80-6b70670968d6",
+      "skill": "edit-timeline-studio",
+      "title": {"en": "Qinglin Depth-Map Extraction", "zhCN": "青鳞深度图提取"},
+      "prompt": {
+        "en": "Convert this 14-second video into a per-frame grayscale depth-map video with Timeline Studio's depth-extraction capability.",
+        "zhCN": "使用 Timeline Studio 的深度提取能力，把这段 14 秒视频逐帧转换成灰度深度图视频。"
+      },
+      "assets": {
+        "preview": "014-qinglin-depth-map-extraction/assets/preview.webp",
+        "result": "014-qinglin-depth-map-extraction/assets/result.mp4",
+        "timeline": "014-qinglin-depth-map-extraction/assets/qinglin-depth-map.timeline"
+      }
     }
   ]
 }

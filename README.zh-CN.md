@@ -4,7 +4,7 @@
 
 [English](README.md) · 简体中文 · [参与贡献](CONTRIBUTING.zh-CN.md)
 
-![案例数](https://img.shields.io/badge/cases-13-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
+![案例数](https://img.shields.io/badge/cases-14-ff6b35) ![Skill](https://img.shields.io/badge/skill-edit--timeline--studio-7c3aed)
 
 > 这些 Skills 由 [Timeline Studio — 开源 AI 视频编辑器](https://github.com/MartinDelophy/ai-video-editor) 执行。
 >
@@ -121,6 +121,14 @@
 > 为 Timeline Studio 制作一条精致典雅的介绍视频，采用英文配音，面向海外受众。
 
 [结果视频](cases/013-timeline-studio-overseas-promo/assets/result.mp4) · [可编辑 `.timeline`](cases/013-timeline-studio-overseas-promo/assets/timeline-studio-overseas-promo.timeline) · [查看案例](cases/013-timeline-studio-overseas-promo/README.zh-CN.md)
+
+## Case 014 · 视频 → 深度图
+
+[![青鳞视频转换为灰度深度图](cases/014-qinglin-depth-map-extraction/assets/preview.webp)](cases/014-qinglin-depth-map-extraction/README.zh-CN.md)
+
+> 使用 Timeline Studio 的深度提取能力，把这段 14 秒视频逐帧转换成灰度深度图视频。
+
+[结果视频](cases/014-qinglin-depth-map-extraction/assets/result.mp4) · [可编辑 `.timeline`](cases/014-qinglin-depth-map-extraction/assets/qinglin-depth-map.timeline) · [查看案例](cases/014-qinglin-depth-map-extraction/README.zh-CN.md)
 
 ## 两种展示类型
 
